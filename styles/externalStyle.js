@@ -344,6 +344,27 @@ export const externalStyle = {
     borderRadius: 200,
     backgroundColor: colors.red,
   },
+  sosButtons: {
+    alignItems: "center",
+    justifyContent: "center",
+    right: 8,
+    
+    width: 50,
+    height: 50,
+    top: -50,
+    borderRadius: 200,
+    backgroundColor: colors.red,
+  },
+  sosButtonWrappers: {
+    position: "relative",
+    width: "100%",
+top: 30,
+    zIndex: 10,
+    alignItems: "flex-end",
+    right: -20,
+    height: 50,
+    bottom: -60,
+  },
 
   inputField: {
     padding: 8,

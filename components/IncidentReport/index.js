@@ -26,6 +26,7 @@ const IncidentReport = (props) => {
     "Missing Person",
     "Riot",
     "Missing Pet",
+    "Others (Please specify)",
   ];
   const clearFormn = () => {
     setDescription(null);

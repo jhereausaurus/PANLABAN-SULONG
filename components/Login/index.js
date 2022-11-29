@@ -7,8 +7,12 @@ import {
   TouchableOpacity,
   Pressable,
   Image,
+ 
 } from "react-native";
 import React, { useEffect, useState } from "react";
+import {
+  Sos,
+} from "../Svg";
 import { externalStyle } from "../../styles/externalStyle";
 import colors from "../../config/colors";
 import { loginUser } from "../../services/user.services";
@@ -86,7 +90,9 @@ const Login = (props) => {
           },
         ]}
       >
+        
         <View>
+       
         <Image style={styles.LoginImage} source={require("../../assets/images/SigninTo.png")} />
           <Text
             style={{
@@ -169,8 +175,27 @@ const Login = (props) => {
             </Text>
           </TouchableOpacity>
           <StatusBar />
+          <View style={styles.sosButtonWrappers}>
+          <TouchableOpacity
+            activeOpacity={0.7}
+            onPress={() => {
+              NavigateToDetails(props, "sos");
+            }}
+          >
+            <View style={styles.sosButtons}>
+              <Sos />
+              
+            </View>
+            
+          </TouchableOpacity>
+          
+          
         </View>
+       
+        </View>
+      
       </View>
+      
     </>
   );
 };

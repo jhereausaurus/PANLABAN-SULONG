@@ -31,7 +31,7 @@ const Dashboard = () => {
                   fontFamily: "semibold",
                   fontSize: 30,
                   // paddingTop: 10,
-                }}>You currently have: </Text>
+                }}>Notifications you currently have: </Text>
       <FlatList
         keyboardShouldPersistTaps={"handled"}
         nestedScrollEnabled={true}

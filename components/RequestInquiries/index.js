@@ -25,6 +25,7 @@ const RequestInquiries = (props) => {
     "Barangay Id",
     "Business Permit",
     "Travel Pass",
+    "Others (Please specify)",
   ];
   const clearFormn = () => {
     setDescription(null);

@@ -21,7 +21,7 @@ const Reservation = (props) => {
   const [facility, setFacility] = useState(null);
   const [description, setDescription] = useState(null);
   const [dropDown, setDropDown] = useState(false);
-  const request_data = ["Brgy Gym", "Brgy Hall", "Stage", "Court", "Clinic"];
+  const request_data = ["Brgy Gym", "Brgy Hall", "Stage", "Court", "Clinic","Others (Please specify)",];
   const clearFormn = () => {
     setDescription(null);
     setEvent(null);
